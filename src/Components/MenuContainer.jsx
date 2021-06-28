@@ -15,7 +15,7 @@ export default class MenuContainer extends React.Component{
                 <Button variant="secondary" className="btn_left_movil">                    
                     <Media>
                         <Media.Body>
-                            <h1>FAVORITOS  <Icon.BookFill/></h1>                            
+                            <h2>FAVORITOS  <Icon.BookmarkFill size={50}/></h2>                            
                         </Media.Body>                        
                     </Media>
                 </Button>
@@ -23,7 +23,7 @@ export default class MenuContainer extends React.Component{
                 <Button variant="secondary" className="btn_right_movil">
                     <Media>
                         <Media.Body>
-                            <h1>AGREGAR <Icon.PersonPlusFill/></h1>                            
+                            <h2>AGREGAR <Icon.PersonPlusFill size={50}/></h2>                            
                         </Media.Body>                        
                     </Media>                    
                 </Button>
