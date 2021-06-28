@@ -1,0 +1,88 @@
+@import "~bootstrap/scss/bootstrap";
+
+$color-btn: white; 
+$color-btn-text: #6b63b5; 
+$small: 400px;
+$medium: 900px;
+
+
+body { 
+  background: url(https://i.pinimg.com/originals/7c/2e/a9/7c2ea9d87badc9f66cbc239622de3689.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#MenuDesktop{
+  color: white;
+  position: absolute;
+  top: 1%;
+  left: 78%;
+}
+
+#MenuMovil{
+  color: white;
+  position: absolute;
+  bottom:0px;
+  right:25%;
+}
+
+.btn_left_movil{
+  background-color: $color-btn-text;
+  border-top-left-radius: 25px;
+  padding: 13px;
+}
+
+.btn_right_movil{
+  background-color: $color-btn-text;
+  border-top-right-radius: 25px;
+  padding: 15px;
+}
+
+.btn_left_movil:hover{
+  background-color: $color-btn;
+  color: $color-btn-text;
+  cursor: pointer;
+}
+
+.btn_right_movil:hover{
+  background-color: $color-btn;  
+  color: $color-btn-text;
+  cursor: pointer;
+}
+
+.btn_left:hover{
+  background-color: $color-btn;
+  color: $color-btn-text;
+  cursor: pointer;
+}
+
+.btn_right:hover{
+  background-color: $color-btn;  
+  color: $color-btn-text;
+  cursor: pointer;
+}
+
+.btn_left{
+  background-color: $color-btn-text;
+  border-bottom-left-radius: 25px;
+  padding: 8px;
+}
+
+.btn_right{
+  background-color: $color-btn-text;
+  border-bottom-right-radius: 25px;
+  padding: 10px;
+}
+
+.divider{
+  width:2px;
+  height:auto;
+  display:inline-block;
+  background-color: #554f91;
+}
+
+
+
+  

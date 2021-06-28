@@ -7,11 +7,11 @@ const app = express();
 app.use(express.static(path.join(__dirname, 'dist')))
 
 //route
-app.get('/test', (request, response) =>{
-    response.send('<h1>Test </h1>');
+app.get('/', (request, response) =>{
+    response.sendFile(path.join(__dirname, 'dist/testGenerator.html'));
 });
 
 //port
 app.listen(3000, ()=>{
-    console.log('test ok');
+    console.log('Server on');
 });
