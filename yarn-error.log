@@ -1,0 +1,68 @@
+Arguments: 
+  C:\laragon\bin\nodejs\nodejs\node.exe C:\Users\Alex\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add --dev @babel/core \ @babel/register \ babel-preset-react-app \ cross-env \ jsdom \ jasmine
+
+PATH: 
+  C:\Users\Alex\AppData\Local\Yarn\config\global\node_modules\.bin;C:\Users\Alex\AppData\Roaming\npm;C:\Users\Alex\AppData\Roaming\Composer\vendor\bin;;C:\laragon\bin\laragon\utils;C:\laragon\bin\mysql\mysql-5.7.24-winx64\bin;C:\laragon\bin\php\php-7.4.13-Win32-vc15-x64;C:\laragon\bin\composer;C:\laragon\bin\apache\httpd-2.4.35-win64-VC15\bin;C:\laragon\bin\redis\redis-x64-3.2.100;C:\laragon\bin\nodejs\nodejs;C:\laragon\bin\nginx\nginx-1.16.0;C:\laragon\bin\notepad++;C:\laragon\bin\telnet;C:\laragon\bin\ngrok;C:\laragon\bin\git\bin;C:\laragon\bin\git\cmd;C:\laragon\bin\git\usr\bin;C:\laragon\bin\git\mingw64\bin;C:\laragon\bin;C:\laragon\usr\bin;C:\laragon\bin\putty;C:\laragon\bin\cmder\bin;C:\laragon\bin\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\laragon\bin\cmder\vendor\conemu-maximus5;C:\laragon\bin\cmder\vendor\conemu-maximus5\ConEmu;C:\Python39\Scripts\;C:\Python39\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Users\Alex\AppData\Local\Microsoft\WindowsApps;C:\Users\Alex\AppData\Local\Programs\Microsoft VS Code\bin;C:\flutter\flutter\bin;C:\Users\Alex\AppData\Roaming\npm;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\share\vim\vim74;C:\laragon\bin\cmder\;
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, lstat 'C:\DumpStack.log.tmp'
+
+npm manifest: 
+  {
+    "name": "test-front",
+    "version": "1.0.0",
+    "description": "test frontend Aero Mexico",
+    "main": "server.js",
+    "dependencies": {
+      "bootstrap": "^5.0.2",
+      "css-loader": "^5.2.6",
+      "express": "^4.17.1",
+      "nodemon": "^2.0.7",
+      "react": "^17.0.2",
+      "react-bootstrap": "^1.6.1",
+      "react-bootstrap-icons": "^1.5.0",
+      "react-device-detect": "^1.17.0",
+      "react-dom": "^17.0.2",
+      "sass": "^1.35.1",
+      "style-loader": "^3.0.0",
+      "webpack": "^5.39.1",
+      "webpack-cli": "^4.7.2"
+    },
+    "devDependencies": {
+      "@babel/cli": "^7.14.5",
+      "@babel/core": "^7.14.6",
+      "@babel/polyfill": "^7.12.1",
+      "@babel/preset-env": "^7.14.7",
+      "@babel/preset-react": "^7.14.5",
+      "babel-loader": "^8.2.2",
+      "clean-webpack-plugin": "^4.0.0-alpha.0",
+      "html-webpack-plugin": "^5.3.2",
+      "node-sass": "^6.0.1",
+      "sass-loader": "^12.1.0"
+    },
+    "scripts": {
+      "start": "nodemon server.js",
+      "watch": "webpack --watch"
+    },
+    "keywords": [
+      "react",
+      "test"
+    ],
+    "author": "Alexis Harol Velasco Ruiz",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

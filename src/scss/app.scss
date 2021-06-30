@@ -4,7 +4,10 @@ $color-btn: white;
 $color-btn-text: #6b63b5; 
 $small: 400px;
 $medium: 900px;
-
+$Gryffindor : '#FF0000';
+$Hufflepuff : '#0597B7';
+$Ravenclaw : '#FFC700';
+$Slytherin : '#1C792B';
 
 body { 
   background: url(https://i.ibb.co/GHsnWGY/Background.png) no-repeat center center fixed; 
@@ -31,6 +34,18 @@ h3{
 h4{
   font-size:30px;
   
+}
+.Gryffindor{  
+  background-color: $Gryffindor;  
+}
+.Hufflepuff{
+  background-color: $Hufflepuff;
+}
+.Ravenclaw{
+  background-color: $Ravenclaw;
+}
+.Slytherin{
+  background-color: $Slytherin;
 }
 
 #MenuDesktop{
@@ -107,11 +122,29 @@ h4{
 }
 .header-card{
   background: linear-gradient(70deg, red, white);
-  padding: 2em;
+  padding: 1em;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
 }
 .body-card{
   background-color: white;
   padding: 1em;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.header-card-movil{
+  background: linear-gradient(70deg, red, white);
+  padding: 1em;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.body-card-movil{
+  background-color: white;
+  padding: 1em;
+  
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 
 .filter{  
@@ -138,6 +171,10 @@ h4{
 
 .description-card-desk{
   font-size: 16px;
+}
+
+.card-general{
+  border-top-left-radius: 25px;
 }
 
 
