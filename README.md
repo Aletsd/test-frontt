@@ -29,11 +29,13 @@ npm install
 
 ### Deploy for development
 Ready for development? Open 3 different consoles and run on each of the following commands
-```
+
 - Compile webpack and update whenever changes occur
+
 ```
 npm run watch  
 ```
+
 - Raise the server
 ```
 npm run start
